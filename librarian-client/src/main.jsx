@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<App />} />
 
-      <Route element={<AuthLayout />}>
+      <Route element={<AuthLayout />} >
         <Route path='/login' element={<Login />} />
         <Route path='registrasi' element={<Registrasi />} />
       </Route>
